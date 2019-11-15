@@ -6,7 +6,7 @@
     "request": {
       "path": "auth/approle/role/salt-master/secret-id",
       "data": {
-        "metadata": {"hostname": "host2"},
+        "metadata": "{\"hostname\": \"host2\"}",
         "token_bound_cidrs": ["10.10.0.1/32"]
       }
     }
