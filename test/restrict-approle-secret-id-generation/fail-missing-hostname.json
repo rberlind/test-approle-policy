@@ -1,0 +1,17 @@
+{
+  "global": {
+    "namespace": {
+      "path": ""
+    },
+    "request": {
+      "path": "auth/approle/role/salt-master/secret-id",
+      "data": {
+        "metadata": {"host": "host1"},
+        "token_bound_cidrs": ["192.168.0.1/32"]
+      }
+    }
+  },
+  "test": {
+    "main": false
+  }
+}

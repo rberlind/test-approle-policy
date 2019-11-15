@@ -1,0 +1,16 @@
+{
+  "global": {
+    "namespace": {
+      "path": ""
+    },
+    "request": {
+      "path": "auth/approle/role/salt-master/secret-id",
+      "data": {
+        "metadata": {"hostname": "host1"}
+      }
+    }
+  },
+  "test": {
+    "main": false
+  }
+}
